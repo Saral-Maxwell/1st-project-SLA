@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web login</title>
+<style>
+    body{
+        background: url("Main.jpeg") no-repeat center center/cover;
+    }
+    h1
+    {
+        font-family: algerian;
+        color: blue;
+    }
+    h2
+    {
+        font-family: Cambria Math;
+        color: white;
+    }
+    label{
+        width:100px;
+        display:inline-block;
+    }
+    #form{
+        
+        width: 500px;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    }
+    #submit{
+        width: 100px;
+        background-color: chocolate;
+        border-radius: 100px;
+        border: springgreen;
+    }
+    #clear{
+        background-color: cornflowerblue;
+        width: 100px;
+        border-radius: 100px;
+        border: springgreen;
+    }
+    .box{
+        padding: 12px;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 1rem;
+    }
+    #submit{
+        padding: 10px 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 1rem;
+        outline: none;
+    }
+    #reset{
+        padding: 10px 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 1rem;
+        outline: none;
+        border-radius: 25px;
+    }
+
+    }
+</style>
+</head>
+<body>
+<h1 align=center>
+  
+    <hr><marquee>Student login form</marquee><hr>
+  
+</h1>
+<center>
+<div id="form">
+<h2>
+    
+    <form method="POST" action="D:\Full stack Intern\Signin.html" style="background-image: image(D:\Full stack Intern\clg.jpg);">
+        
+            <legend align=center>SignUp Form</legend>
+                
+            
+            <label>Name:</label> <input type="text" size="30" class="box"><br><br>
+            <label>Mail ID:</label> <input type="text" size="30" class="box"><br><br>
+            <label>Password: </label> <input type="password" size="30" class="box"><br><br>
+            <input type="submit" value="SignUp" id="submit" class="submit">
+            <input type="reset" value="clear all" id="reset" class="reset">
+        
+        </form>
+    
+    
+    
+</h2>
+</div>
+</center>
+
+</body>    
+</body>
+</html>
